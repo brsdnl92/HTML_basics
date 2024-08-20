@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first webpage</title>
     <link rel="stylesheet" href="/css/main.css">
-    <!-- Embedded CSS overrides main.css -->
-    <style>
-        p{
-            color: green;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -22,11 +16,10 @@
     </nav>
 
     <section>
-        <!-- Inline style -->
-        <h1 style="color: red">Python kezdő</h1>
+        <h1>Python kezdő</h1>
         <h2>Lorem ipsum dolor sit.</h2>
         <img style="width: 600px" src="/images/homepage/homepage_image1.jpg" alt="/images/homepage/homepage_image1.jpg">
-        <p style="font-family: 'Times New Roman', Times, serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, illum alias veniam ex voluptates soluta dicta esse a hic pariatur numquam vel itaque magni quis tempora quidem non id necessitatibus?</p>
+        <p class="red-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, illum alias veniam ex voluptates soluta dicta esse a hic pariatur numquam vel itaque magni quis tempora quidem non id necessitatibus?</p>
         <article>
             <h2>Alcím</h2>
             <img src="/images/homepage/homepage_image1.jpg" alt="/images/homepage/homepage_image1.jpg">
@@ -36,13 +29,13 @@
         <article>
             <h2>Alcím 2</h2>
             <img src="/images/homepage/homepage_image1.jpg" alt="/images/homepage/homepage_image1.jpg">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis, quia commodi aliquid similique blanditiis accusantium id tempore, harum accusamus, exercitationem saepe sequi quasi? Officiis maxime voluptates ipsum fuga dolorem.</p>
+            <p class="red-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda perspiciatis, quia commodi aliquid similique blanditiis accusantium id tempore, harum accusamus, exercitationem saepe sequi quasi? Officiis maxime voluptates ipsum fuga dolorem.</p>
         </article>
     </section>
 
     <section>
         <h1>Modul I.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sit iure suscipit ipsa iusto ex debitis neque labore accusamus molestiae beatae, optio ea ad aut eveniet. Eos blanditiis delectus id.</p>
+        <p><span class="red-text bold-text">Lorem ipsum dolor, sit <span class="bold-text">amet</span> consectetur adipisicing elit.</span> Quaerat sit iure suscipit ipsa iusto ex debitis <strong>neque labore</strong> accusamus molestiae beatae, optio ea ad aut eveniet. Eos blanditiis delectus id.</p>
     </section>
 </body>
 </html>

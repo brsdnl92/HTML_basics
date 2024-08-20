@@ -18,5 +18,17 @@ img {
 }
 
 p{
+    background-color: white;
+    color: black;
+    padding: 50px 20px;
+    border-radius: 30px;
+}
+
+.red-text{
     color: red;
+}
+
+.bold-text{
+    font-weight: bolder;
+    border: 1px solid black;
 }
