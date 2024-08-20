@@ -17,6 +17,10 @@ img {
     border-radius: 20px;
 }
 
+.blog img{
+    border-color: purple;
+}
+
 p{
     background-color: white;
     color: black;
@@ -31,4 +35,24 @@ p{
 .bold-text{
     font-weight: bolder;
     border: 1px solid black;
+}
+
+.description{
+    font-size: 26px;
+    text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+
+.blog .title{
+    color: aqua;
+}
+
+#page-title{
+    color: purple;
 }
